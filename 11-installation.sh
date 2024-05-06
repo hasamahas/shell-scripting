@@ -9,9 +9,9 @@ else
     echo "You are super user"
 fi
     
-dnf install mysql -y
+dnf install mysql -y # installing mysql
 
-if [ $? -ne 0 ]
+if [ $? -ne 0 ]  #checking the staus of mysql installtion
 then
     echo "Installation of mysql is ...FAILURE"
     exit 1
@@ -19,9 +19,9 @@ else
     echo "Installation of mysql is ...SUCCESS"
 fi
 
-dnf install git -y
+dnf install git -y # installing git
 
-if [ $? -ne 0]
+if [ $? -ne 0]  #checking the status of previous command 
 then
     echo "Installation of git is ...FAILURE"
     exit 1
