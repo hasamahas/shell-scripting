@@ -1,1 +1,2 @@
-* this I dont want to push
+#!/bin/bash
+echo "Im learning devops"
