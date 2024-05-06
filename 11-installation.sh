@@ -4,6 +4,7 @@ USERID=$(id -u)
 if [ $USERID -ne 0 ]
 then
     echo "Please run this command with root access"
+    exit 1 # manually exit if error comes
 else
     echo "You are super user"
 fi
@@ -11,3 +12,5 @@ fi
 dnf install mysql -y
 
 echo "Is script proceeding?"
+
+# $? to check the exit status of previous command
