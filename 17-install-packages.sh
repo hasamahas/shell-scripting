@@ -12,5 +12,5 @@ fi
 
 for i in $@
 do  
-    echo "package to isntall is: $i"
+    echo " the package to isntall is: $i"
 done
