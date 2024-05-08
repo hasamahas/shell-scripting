@@ -1,4 +1,4 @@
-#!/bin/basah
+#!/bin/bash
 
 COURSE="Devops in current script"
 
