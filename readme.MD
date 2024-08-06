@@ -7,7 +7,7 @@ Steps:**
 * Start developing
 * Add the file to the temp area
 -------------
-git add <file-name>
+git add <file-name> yes
 ---------------
 
 * Commit the changes
