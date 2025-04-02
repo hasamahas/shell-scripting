@@ -31,4 +31,4 @@ fi
 
 echo "Is script proceeding?"
 
-# $? to check the exit status of previous command
+# echo $? to check the exit status of previous command
