@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "Im learning devops good morning hasan"
 echo "Thank you siva for wonderful session"
-echo "Resume"
+echo "Resuming the work"
