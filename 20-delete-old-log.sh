@@ -44,4 +44,4 @@ while IFS= read -f line
 do
  echo "deleting file:$line"
  rm -rf $line
-done <<<$FILES
+done <<< $FILES
