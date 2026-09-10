@@ -40,8 +40,8 @@ if
 
 FILES=$(find $SOURCE_DIRECTORY -name "*.log" -mtime +14)
 
-while IFS= read -f line
+while IFS= read -r line
 do
- echo "deleting file:$line"
+ echo "deleting file: $line"
  rm -rf $line
 done <<< $FILES
