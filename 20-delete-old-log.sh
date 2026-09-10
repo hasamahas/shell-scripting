@@ -36,7 +36,7 @@ then
     echo -e "$G Source directory exists $N"
 else
     echo -e "$R please make sure $SOURCE_DIRECTORY exists $N"
-if
+fi
 
 FILES=$(find "$SOURCE_DIRECTORY" -name "*.log" -mtime +14)
 
